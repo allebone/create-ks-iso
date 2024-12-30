@@ -7,19 +7,19 @@
 #SRCDIR=""
 
 # Source Media ISO Location
-# ISOSRCDIR=""
+ISOSRCDIR="/Volumes/TEMP/TFTP/Images/ROCKY9"
 
 # OEM Source Media File Name
-#OEMSRCISO="rhel-8.7-x86_64-dvd.iso"
+OEMSRCISO="Rocky-9.5-x86_64-dvd.iso"
 
 # Create new full boot ISO
-#CREATEBOOTISO="true"
+CREATEBOOTISO="true"
 
 # Create OEMDRV volume ISO
 #CREATEOEMDRVISO="true"
 
 # FIPS Mode
-#ENABLEFIPS="true"
+ENABLEFIPS="true"
 
 # Write plaintext passwords to files
 # Generally uneeded, but useful for console testing.
@@ -30,4 +30,3 @@
 # Generally uneeded, but useful for console testing.
 # NOT Recommended to write plaintext passwords out.
 #password=""
-
