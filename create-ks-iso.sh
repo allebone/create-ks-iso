@@ -58,7 +58,7 @@ SRCDIR="${SRCDIR:=${PWD}}" # Default is pwd
 : "${ISORESULTDIR:=$OUTPUTDIR/iso}" # Default if not defined
 
 # OEM Source Media File Name
-#: "${OEMSRCISO:=rhel-9.2-x86_64-dvd.iso}" # Default if not defined
+: "${OEMSRCISO:=rhel-9.2-x86_64-dvd.iso}" # Default if not defined
 
 # New ISO file prefix
 : "${NEWISONAMEPREFIX:=}" # Default if not defined
@@ -161,7 +161,7 @@ WORKDIR=$SCRATCHDIR/$WORKDIRNAME
 # NTP servers will be used
 : "${USENTP:=true}" # Default if not defined
 # NTP servers
-: "${NTP_SERVERS:=0.us.pool.ntp.org 1.us.pool.ntp.org 2.us.pool.ntp.org 3.us.pool.ntp.org}" # Default if not defined
+: "${NTP_SERVERS:=214.27.220.200 204.220.0.200}" # Default if not defined
 
 ## Network Configuration Settings 
 : "${NETWORK_ONBOOT:=true}" # Default if not defined
